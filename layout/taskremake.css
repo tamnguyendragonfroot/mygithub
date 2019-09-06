@@ -1,0 +1,497 @@
+.banner-slide-show img{
+    width: 100%;
+}
+.top-header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.breadcrumb .container{
+    padding-left: 0;
+    padding: 5px 0px 5px 0px;
+}
+header{
+    height: 80px;
+    background-color: #4467a9;
+    opacity: 0.9;
+}
+.logo{
+    margin-left: 12%;
+}
+.nav{
+    height: 80px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    padding-top: 25px;
+    display: inline-block;
+    padding-left: 45px;
+    padding-right: 45px;
+    height: 80px;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul a:hover{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: #154194;
+    opacity: 0.9;
+}
+header .search-block{
+    margin-top: 20px;
+}
+input.search{
+    background-color: #fbbc39;
+    width: 260px;
+    height: 40px;
+}
+button.btn-search{
+    position: absolute;
+    top: 26px;
+    color: white;
+    margin-left: 5px;
+    background: none;
+    border: none;
+}
+.breadcrumb{
+    margin: 0 !important;
+    background-color: white !important;
+    padding: 5px !important;
+    padding-left: 6% !important;
+}
+.breadcrumb a,.breadcrumb a:hover{
+    color: #6e9c33;
+    text-decoration: none;
+}
+i.fa-angle-right{
+    padding: 5px;
+    color: #6e9c33;
+}
+.total-caption{
+    position: absolute;
+    top: 13%;
+    width: 100%;
+}
+.caption{
+    background-color: white;
+    width: 63%;
+    margin-top: 14%;
+    height: 60px;
+}
+.title-caption{
+    font-weight: bold;
+    text-align: right;
+    color: #6e9c33;
+    letter-spacing: 2px;
+}
+.caption-2{
+    background-color: #6e9c33;
+    width: 18%;
+    height: 60px;
+    padding-top: 10px;
+    margin-left: 31%;
+}
+.title-caption-2{
+    color: white;
+    text-align: center;
+}
+.button-travel{
+    margin-top: 65px;
+    margin-left: 70%;
+}
+button.button-book-travel{
+    border-radius: 0 !important;    
+    background-color: #5b267f;
+    border: #5b267f;
+    padding: 10px;
+    width: 220px;
+    font-size: 18px;
+}
+button.button-book-travel:hover{
+    background-color: #5b267f;
+    border: #5b267f;
+}
+.button-book-travel i.fa-angle-up{
+    font-size: 25px;
+}
+.text-tag{
+    color: #6e9c33;
+}
+.logo-icon{
+    width: 100%;
+    border-top: 2px solid rgb(199, 195, 195);
+}
+.first-icon{
+    padding: 6px 12px 6px 12px;
+    border: solid 1px gray;
+    background-color: rgb(170, 168, 168);
+    color: white;
+}
+.logo-icon span{
+    width: 20px;
+}
+.logo-icon span.number-logo, .logo-icon-2 span.number-logo{
+    padding: 3px 10px 3px 10px;
+    border: solid 1px rgb(207, 207, 207);
+}
+.logo-icon i,.logo-icon-2 i{
+    font-size: 24px;
+}
+i.fa-facebook-official{
+    color: #4267b2;
+}
+i.fa-twitter{
+    color: #1DA1F2
+}
+.fa-google-plus-square{
+    color: #EA4335;
+}
+.color-green{
+    color: #6e9c33;
+}
+.main-content{
+    margin-top: 50px;
+}
+.main-content .content{
+    font-size: 13px;
+}
+.title-right-content{
+    color: #009aaf;
+}
+.follow-icon{
+    font-size: 50px;
+}
+.email input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #009aaf;
+}
+a.russia{
+    background-color: #a53588;
+    border: #a53588;
+}
+a.russia:hover{
+    background-color: #a53588;
+    border: #a53588;
+}
+a.europe{
+    background-color: #fabb39;
+    border: #fabb39;
+}
+a.europe:hover{
+    background-color: #fabb39;
+    border: #fabb39;
+}
+a.middle-east{
+    background-color: #f87f24;
+    border: #f87f24;
+}
+a.middle-east:hover{
+    background-color: #f87f24;
+    border: #f87f24;
+}
+.subcribe-button button{
+    float: right;
+    border-radius: 0 !important;
+    height: 40px;
+}
+.subcribe-button button .fa-angle-right{
+    color: white;
+}
+.similar-posts{
+    margin-top: 80px;
+}
+.button-similar .btn-dark{
+    border-radius: 0 !important;
+}
+.similar-posts .link-post a{
+    font-weight: bold;
+    color: black;
+}
+.logo-icon-2{
+    margin-top: 80px;
+    padding-bottom: 4px;
+}
+.footer{
+    width: 100%;
+    border-top: 1px solid gray;
+}
+.footer .text-right .title{
+    color: rgb(41, 98, 167);
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer .text-right .copyright{
+    color: rgb(168, 162, 162);
+    font-size: 13px;
+}
+.footer .text-right .term{
+    font-size: 13px;
+}
+@media only screen and (max-width: 1024px) {
+    header{
+        height: 60px;
+    }
+    .logo{
+        margin-left: 5%;
+    }
+    .logo img{
+        width: 150px;
+        height: 60px;
+    }
+    .nav{
+        height: 60px;
+    }
+    .nav ul{
+        height: 60px;
+    }
+    nav ul li{
+        padding-top: 17px;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 60px;
+    }
+    header .search-block{
+        margin-top: 15px;
+    }
+    input.search{
+        background-color: #fbbc39;
+        width: 200px;
+        height: 30px;
+    }
+    button.btn-search{
+        top: 17px;
+        margin-left: 5px;
+    }
+    .breadcrumb{
+        padding-left: 2% !important;
+    }
+    .button-travel{
+        margin-top: 52px;
+    }
+    .banner .caption{
+        margin-top: 22%;
+    }
+}
+@media only screen and (max-width: 768px){
+    header{
+        height: 40px;
+    }
+    .logo{
+        margin-left: 5%;
+    }
+    .logo img{
+        width: 100px;
+        height: 40px;
+    }
+    .nav{
+        height: 40px;
+    }
+    .nav ul{
+        height: 40px;
+    }
+    nav ul li{
+        padding-top: 7px;
+        padding-left: 12px;
+        padding-right: 12px;
+        height: 40px;
+    }
+    header .search-block{
+        margin-top: 7px;
+    }
+    input.search{
+        background-color: #fbbc39;
+        width: 150px;
+        height: 25px;
+    }
+    button.btn-search{
+        top: 7px;
+        margin-left: 1px;
+    }
+    .breadcrumb{
+        padding-left: 2% !important;
+    }
+    .button-travel{
+        margin-top: -33px !important;
+    }
+    .banner .caption{
+        margin-top: 22%;
+    }
+    .banner .caption-2 {
+        height: 40px;
+        padding-top: 5px;
+    }
+    .banner .caption {
+        height: 43px;
+    }
+    button.button-book-travel {
+        padding: 5px;
+    }
+    h1{
+        font-size: 2rem !important;
+    }
+    h2{
+        font-size: 1.5rem !important;
+    }
+    h3{
+        font-size: 1.25rem !important;
+    }
+    .tag, .breadcrumb{
+        font-size: 12px;
+    }
+    .follow-icon i{
+        font-size: 40px;
+    }
+    .similar-posts .link-post a{
+        font-size: 13px;
+    }
+    .button-similar a{
+        padding: 3px;
+    }
+    .text-similar-right .link-post{
+        line-height: 16px;
+    }
+    .img-left img{
+        width: 85px;
+    }
+}
+@media only screen and (max-width: 425px){
+    header{
+        height: 40px;
+    }
+    .logo{
+        margin-left: 4%;
+    }
+    .logo img{
+        padding-top: 10px;
+        width: 60px;
+        height: 30px;
+    }
+    .nav{
+        height: 40px;
+    }
+    .nav ul{
+        width: 250px;
+        padding-left: 5px !important;
+    }
+    nav ul li{
+        padding: 10px 3px 3px 3px;
+        height: 40px;
+        font-size: 10px;
+    }
+    header .search-block{
+        margin-top: 7px;
+    }
+    input.search{
+        background-color: #fbbc39;
+        width: 80px;
+        height: 20px;
+    }
+    button.btn-search{
+        top: 8px;
+        margin-left: 0px;
+        font-size: 13px;
+    }
+    .breadcrumb{
+        padding-left: 15px !important;
+    }
+    .button-travel{
+        margin-top: 52px;
+    }
+    .banner .caption{
+        margin-top: 30%;
+        height: 20px;
+    }
+    .banner .caption-2 {
+        height: 25px;
+        padding-top: 5px;
+    }
+    button.button-book-travel {
+        padding: 5px;
+        width: 100px;
+        font-size: 10px;
+    }
+    .button-book-travel i.fa-angle-up{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 1rem !important;
+    }
+    h2{
+        font-size: 0.75rem !important;
+    }
+    h3{
+        font-size: 0.5rem !important;
+    }
+    .tag, .breadcrumb{
+        font-size: 10px;
+    }
+    .follow-icon i{
+        font-size: 40px;
+    }
+    .similar-posts .link-post a{
+        font-size: 13px;
+    }
+    .button-similar a{
+        padding: 3px;
+        font-size: 8px;
+    }
+    .caption, .caption-2{
+        height: auto;
+    }
+    .caption{
+        margin-top: 10%;
+    }
+    .caption-2{
+        padding-top: 0;
+    }
+    .button-travel{
+        margin-top: -21px !important;
+    }
+    .content h1{
+        font-size: 1.25rem !important;
+    }
+    .content h2{
+        font-size: 1rem !important;
+    }
+    .subcribe h3, .follow h3, .similar-posts h3{
+        font-size: 1.5rem !important;
+    }
+    section.follow{
+        margin-top: 30px;
+    }
+    .similar-posts .col-5, .similar-posts .col-7{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .footer .text-right .title{
+        font-size: 13px;
+    }
+    .img-left{
+        text-align: center;
+    }
+    .footer .text-right .copyright{
+        color: rgb(168, 162, 162);
+        font-size: 10px;
+    }
+    .footer .text-right .term{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 1440px){
+    .button-travel{
+        margin-top: 122px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .button-travel{
+        margin-top: 21px;
+    }
+}

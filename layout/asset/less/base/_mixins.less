@@ -1,0 +1,123 @@
+
+/* sprites 
+.sprites {
+    background-color: transparent;
+    background-image: url(../../vec_images/icon-sprites.png);
+    background-repeat: no-repeat;
+    background-size: 200px auto;
+}*/
+/*****/
+.clearfix {
+  display: block;
+  zoom: 1;
+  &:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+/* border-radius */
+.border-radius(@number...) {
+    -webkit-border-radius: @number;
+    -moz-border-radius: @number;
+    border-radius: @number;
+}
+
+/* placeholder */
+.placeholder(@val...){
+    &::-webkit-input-placeholder {
+        color: @val;
+    }
+    &:-moz-placeholder { 
+        color: @val;
+        opacity: 1;
+    }
+    &::-moz-placeholder { 
+        color: @val;
+        opacity: 1;
+    }
+    &:-ms-input-placeholder {
+        color: @val;
+    }
+    &:placeholder {
+        color: @val;
+    }
+}
+/*******/
+.selected-control{
+    background: #fff url(../../vec_images/bg-select.png) 97% 49% no-repeat;
+    border: 1px solid @grey-color;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    padding: 5px 27px 5px 10px;
+    text-indent: 0;
+    color: #bababa;
+    font-size: @fontsize-13;
+    height: auto;
+}
+/* arrow down */
+.arrow-down(@val, @number: 4px){
+    position: relative;
+    &:before{
+      pointer-events: none;
+      position: absolute;
+      z-index: 1;
+      content: '';
+      border-style: solid;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      border-width: @number @number 0 @number;
+      border-color: @val transparent transparent transparent;
+    }
+}
+
+.btn-viewmore{
+  display: inline-block;
+  .border-radius(25px);
+  color: @link-color;
+  padding: 7px 50px;
+  border: 1px solid @link-color;
+  margin-top: 20px;
+  &:hover, &:focus{
+    color: @white-color;
+    background: @link-color;
+  }
+}
+.arrow-white{
+  position: relative;
+  &:before{
+    pointer-events: none;
+  position: absolute;
+  z-index: 2;
+  content: '';
+  border-style: solid;
+  left: 50%;
+  margin-left: -10px;
+  top: 0;
+  border-width: 20px 20px 0 20px;
+  border-color: #fff transparent transparent transparent;
+  }
+}
+
+.arrow-black{
+  position: relative;
+  &:before{
+    pointer-events: none;
+  position: absolute;
+  z-index: 2;
+  content: '';
+  border-style: solid;
+  left: 50%;
+  margin-left: -10px;
+  top: 0;
+  border-width: 20px 20px 0 20px;
+  border-color: #2e2f3a transparent transparent transparent;
+  }
+}
